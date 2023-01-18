@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    color: #243e63;
+}
+
+.btn:hover {
+    color: #5011CC;
+    
+}
+
+#landing {
+    padding: 32px;
+}
+
+.row {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn {
+    background-color: #6415ff;
+    border-radius: 25px;
+    padding: 10px 12px;
+    border: none;
+}
+
+.purple {
+    color: #6415ff;
+}
+
+img {
+    width: 100%;
+}
+
+.btn {
+    font-size: 16px;
+}
+
+.category {
+    color: #6415ff;
+    font-weight: 700;
+}
+
+
+/* 
+
+NAVIGATION 
+
+*/
+
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-height: 40px;
+
+}
+
+.nav__links {
+    transition: all 300ms ease;
+}
+
+.nav__link {
+    padding: 0px 20px;
+    font-weight: 600;
+    font-size: 14px;
+    color: rgb(36, 62, 99)
+}
+
+.nav__link:hover {
+    text-decoration: underline;
+    color: #6415ff;
+    cursor: pointer;
+}
+
+.nav__link--signup {
+    color: #fff;
+    font-size: 16;
+    font-weight: 600;
+}
+
+.nav__link--login {
+    margin: 0px 12px 0px 48px;
+}
+
+.logo {
+    max-width: 40px;
+}
+
+.logo__img {
+    width: 100%;
+}
+
+.logo__name {
+    margin: 0px 24px;
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.logo__name:hover {
+    color: #6415ff;
+    cursor: pointer;
+}
+
+.subtitle {
+    padding: 32px 0px;
+    font-size: 18px;
+}
+
+.container {
+    margin: 150;
+}
+
+/* 
+
+HEADER 
+
+*/
+
+.header__content {
+    width: 43%;
+    display: flex;
+    flex-direction: column;
+    height: 550px;
+    padding-top: 36px;
+}
+
+.header__img {
+    width: 57%;
+    display: flex;
+    align-items: flex-end;
+    margin: 0px 24px 0px 0px;
+}
+
+.header__row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 96px 0px;
+    max-width: 1280px;
+}
+
+input {
+    width: 100%;
+    border-radius: 9999px;
+    border-width: 2px;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 2rem;
+    font-weight: 500;
+    border-color: rgba(40, 66, 150, 0.1);
+    transition: all 400ms ease; 
+    color: rgba(40, 66, 150, 0.2);
+}
+
+input::placeholder {
+    color: rgb(191, 200, 212);
+}
+
+input, input::placeholder {
+    font-size: 16px;
+}
+
+input:focus {
+    outline: 2px solid #6415ff;
+	outline-offset: -2px;
+}
+
+.header__btn {
+    position: absolute;
+    right: 10px;
+    top: 5x;
+    bottom: 10px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    border-radius: 9999px;
+    border: none;
+    --tw-bg-opacity: 1;
+    background-color: rgb(100 21 255 / var(--tw-bg-opacity));
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-weight: 700;
+    --tw-text-opacity: 1;
+    color: rgb(247 250 252 / var(--tw-text-opacity));
+    transition-duration: 300ms;
+    max-width: 160px;
+    font-size: 16px;
+}
+
+.header__email {
+    max-width: 448px;
+    position: relative;
+}
+
+.header__customers--desc {
+    font-weight: 700;
+    color: #A0AEC0;
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+
+.header__customers {
+    padding-right: 100px;
+    margin-top: 80px;
+}
+
+.header__customers--img {
+    opacity: 0.5;
+}
+
+.header__description {
+    color: #243e63;
+}
+
+/* 
+
+SERVICES 
+
+*/
+
+
+.icon__wrapper {
+    flex-shrink: 0;
+    border-radius: 9999px;
+    border-width: 1px;
+    padding: 1.25rem;
+    text-align: center;
+    border: 1px solid rgb(226, 232, 240);
+    height: 66px;
+    width: 66px;
+}
+
+.icon {
+    width: 100%;
+
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.service {
+    display: flex;
+    width: calc(100% / 3);
+    height: 210px;
+    padding: 32px 24px
+}
+
+.service__content {
+    margin: 8px 0px 0px 16px;
+
+}
+
+.service__desc {
+margin-top: 16px;
+display: flex;
+flex-direction: column;
+}
