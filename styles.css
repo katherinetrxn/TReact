@@ -12,7 +12,9 @@ button:hover {
 
 p {
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 32px;
+    color: #7C8BA1;
+    font-weight: 500px;
 }
 
 a {
@@ -53,6 +55,9 @@ h2 {
     border-radius: 25px;
     padding: 10px 12px;
     border: none;
+    font-size: 14px;
+    color: white;
+    font-weight: 600;
 }
 
 .purple {
@@ -61,10 +66,6 @@ h2 {
 
 img {
     width: 100%;
-}
-
-.btn {
-    font-size: 16px;
 }
 
 .category {
@@ -124,7 +125,7 @@ NAVIGATION
 }
 
 .logo__name {
-    margin: 0px 24px;
+    margin: 0px 12px;
     font-weight: 900;
     font-size: 24px;
 }
@@ -134,13 +135,13 @@ NAVIGATION
     cursor: pointer;
 }
 
-.subtitle {
+.subtext {
     padding: 32px 0px;
     font-size: 18px;
 }
 
 .container {
-    margin: 150;
+    padding: 96px 0px;
 }
 
 /* 
@@ -169,7 +170,6 @@ HEADER
     align-items: center;
     justify-content: center;
     padding: 96px 0px;
-    max-width: 1280px;
 }
 
 input {
@@ -232,6 +232,7 @@ input:focus {
     color: #A0AEC0;
     margin-bottom: 20px;
     font-size: 12px;
+    letter-spacing: 1px;
 }
 
 .header__customers {
@@ -253,7 +254,15 @@ SERVICES
 
 */
 
+.category {
+    margin: 0px 0px 16px;
+    letter-spacing: 1px;
+}
 
+.title {
+    font-weight: 900;
+    color: #243e63;
+}
 .icon__wrapper {
     flex-shrink: 0;
     border-radius: 9999px;
@@ -273,6 +282,8 @@ SERVICES
 .services {
     display: flex;
     flex-wrap: wrap;
+    max-width: 1024px;
+    margin: 0 auto;
 }
 
 .service {
@@ -282,9 +293,14 @@ SERVICES
     padding: 32px 24px
 }
 
+.services__row {
+    margin: 0px 282px;
+    padding: 96px 0px;
+    
+}
+
 .service__content {
     margin: 8px 0px 0px 16px;
-
 }
 
 .service__desc {
@@ -293,4 +309,112 @@ display: flex;
 flex-direction: column;
 }
 
-.services__desc
+.services__desc {
+    text-align: center;
+    
+}
+
+.services__subtext {
+    max-width: 100%;
+    margin: 0px 288px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.services__row {
+    margin: 0 auto;
+}
+
+/* 
+
+QUALITY WORK 
+
+*/
+
+.quality__container {
+    margin: 0px 131px;
+    padding: 96px 0px;
+}
+
+.quality__row {
+    display: flex;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.quality__content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: 8px 36px 8px 0px;
+    width: 576px;
+}
+
+.quality__img--wrapper {
+    width: 50%;
+    border: 1px solid #dee3eb;
+}
+
+.quality__btn {
+    width: 141.25px;
+    height: 45px;
+    color: #fff;
+}
+
+.quality__subtext {
+    width: 550px;
+}
+/* 
+
+STEPS
+
+*/
+
+.steps__row {
+    display: flex;
+    padding: 96 0px;
+}
+
+.steps__content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: 8px 36px;
+}
+
+.steps__desc {
+    margin-top: 16px;
+}
+
+
+.steps__img--wrapper {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.step__number {
+    font-size: 36px;
+    font-weight: 900px;
+    color: rgb(203, 213, 224);
+    font-weight: 600;
+}
+
+.step {
+    display: flex;
+    margin-top: 36px;
+}
+
+.step__content {
+    display: flex;
+    flex-direction: column;
+    padding-left: 24px;
+}
+.step__desc {
+    margin-top: 12px;
+    font-size: 14px;
+    max-width: 320px;
+}
