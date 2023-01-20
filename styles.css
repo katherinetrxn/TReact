@@ -6,6 +6,7 @@
     font-family: 'Inter', sans-serif;
 }
 
+
 button:hover {
     cursor: pointer;
 }
@@ -30,7 +31,7 @@ h2 {
 }
 
 .btn:hover {
-    color: #5011CC;
+    color: #fff;
     
 }
 
@@ -358,15 +359,16 @@ QUALITY WORK
     border: 1px solid #dee3eb;
 }
 
-.quality__btn {
+.quality__btn, .values__btn {
     width: 141.25px;
     height: 45px;
     color: #fff;
 }
 
-.quality__subtext {
+.quality__subtext, .values__subtext {
     width: 550px;
 }
+
 /* 
 
 STEPS
@@ -417,4 +419,196 @@ STEPS
     margin-top: 12px;
     font-size: 14px;
     max-width: 320px;
+}
+
+/* 
+
+VALUES
+
+*/
+
+.values__title {
+    max-width: 576px;
+}
+
+.values__content {
+    width: 50%;
+}
+
+.values__subcontent {
+    display: flex;
+}
+
+.values__icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.values__img--wrapper {
+    width: 50%;
+}
+
+.values__row {
+    display: flex;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.values__subtitle {
+    font-size: 20px;
+}
+
+.values__name {
+    display: flex;
+    align-items: center;
+}
+
+.values__name {
+    display: flex;
+}
+
+.values__subcontent--text {
+    margin-top: 8px;
+}
+
+.values__btn {
+    margin-top: 48px;
+}
+
+/* 
+
+PRICING 
+
+*/
+
+.pricing__subtitle--wrapper {
+    padding: 40px 64px 35px 64px;
+}
+
+.pricing__subtitle {
+    font-size: 20px;
+}
+.pricing__desc {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pricing__subtext {
+    max-width: 576px;
+    margin: 16px 0px;
+    font-size: 18px;
+}
+.plans {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.personal__highlight {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    height: 0.5rem;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    background-image: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+}
+.plan {
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: solid 1px #dee3eb;
+    border-radius: 10px;
+    margin: 32px;
+    position: relative;
+}
+
+.pricing__list {
+    border-top: 1px solid #dee3eb;
+    border-bottom: 1px solid #dee3eb;
+    width: 100%;
+    padding: 32px;
+}
+
+.pricing__list--type {
+    margin-top: 20px
+}
+
+.buynow {
+    padding: 32px;
+}
+
+.pricing__btn {
+    border-radius: 25px;
+    padding: 16px 32px;
+    border: none;
+    font-size: 14px;
+    color: white;
+    font-weight: 600;
+}
+
+.pricing__number {
+    margin: 14px;
+}
+
+.pricing__monthly {
+    font-size: 16px;
+    color: rgba(160, 174, 192);
+}
+.personal__btn--wrapper {
+    border-radius: 25px;
+    padding: 16px 32px;
+    border: none;
+    font-size: 14px;
+    color: white;
+    font-weight: 600;
+    background-image: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+}
+
+
+.enterprise__highlight {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    height: 0.5rem;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    background-image: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+}
+
+.enterprise__btn--wrapper {
+    border-radius: 25px;
+    padding: 16px 32px;
+    border: none;
+    font-size: 14px;
+    color: white;
+    font-weight: 600;
+    background-image: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+}
+
+.business__plan {
+    background-image: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
+}
+
+.business__subtitle, .business__number, .business__monthly, .business__type, .business__list--type {
+    color: white;
+}
+
+.business__btn {
+    color: #6415ff;
+}
+
+.business__btn--wrapper {
+    border-radius: 25px;
+    padding: 16px 32px;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: white;
 }
